@@ -20,7 +20,6 @@ func main() {
 	}
 
 	random := rand.Intn(num2-num1) + num1
-	fmt.Print(random)
 
 	fmt.Printf("Guess a number between %d and %d.\n", num1, num2)
 	var guess int
